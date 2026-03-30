@@ -23,7 +23,7 @@ Diploma in ICT: Applications Development
 Cape Peninsula University of Technology<br>
 Cape Town, South Africa<br>
 
-SKILLS
+SKILLS<br>
 •	Java<br>
 •	Python<br>
 •	SQL<br>
@@ -38,7 +38,7 @@ Application designed specifically for students that travel via university shuttl
 •	Checkers 60/60 App redesign<br>
 Redesign of the Checkers 60/60 mobile app to add features that allow users to have better user experience. <br>            
 References<br>
-•	Zanephyn Keyser (ZK Productions) – 082 402 8892<br>
+•	Zanephyn Keyser (Owner of ZK Productions) – 082 402 8892<br>
 •	Renzo (Checkers)– 063 896 2976<br>
 
 
