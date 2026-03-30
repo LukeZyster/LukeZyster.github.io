@@ -3,7 +3,7 @@ OBJECTIVE
 
 Seeking a software engineering internship to apply programming expertise and develop practical industry experience within a technology-driven organization.
 
-CONTACT
+CONTACT<br>
 •	Email: 220489114@mycput.ac.za<br>
 •	Phone: 071 868 9667 <br>
 •	Address: 80 Pentz Street, Wellington, South Africa <br>
