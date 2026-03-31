@@ -38,12 +38,12 @@ Application designed specifically for students that travel via university shuttl
 •	Checkers 60/60 App redesign<br>
 Redesign of the Checkers 60/60 mobile app to add features that allow users to have better user experience. <br>            
 References<br>
-•	Zanephyn Keyser (Owner of ZK Productions) – 082 402 8892<br>
-•	Renzo (Checkers)– 063 896 2976<br>
+•	Zanephyn Keyser (Owner of ZK Productions) – 082 402 8892- Email: keyserz@cput.ac.za<br>
+•	Renzo (Employee of Checkers)– 063 896 2976<br>
 
-
+MOCK INTERVIEW
 <video width="640" height="360" controls>
-  <source src="videos/Mock_Interview.mp4" type="video/mp4">
+  <source src="video/Mock_Interview.mp4" type="video/mp4">
 </video>
 
 
