@@ -45,6 +45,7 @@ MOCK INTERVIEW
 <video width="640" height="360" controls>
   <source src="video/interview.mp4" type="video/mp4">
 </video>
+
 Reflection on Mock interview<br>
 The mock interview was something that I personally enjoyed because the questions were very straight forward and it allowed me to express myself fully. I enjoyed the brainteaser as well because I usually like to think outside of the box and this gave me the opportunity to do so which was really enjoyable. I did experience some difficulty during the recording process of the interview but this was not anything significant, the difficulty I faced was I had to stop and start over frequently because there would be certain sections where I would stutter and stumble over my words. As a whole I really enjoyed the experience and I feel that it has given me the necessary preperation for an actual interview.
 
