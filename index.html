@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GrandCaddy Agile Portfolio</title>
+<meta name="description" content="Agile project portfolio for GrandCaddy: team charter, user stories and tasks, product backlog, sprint backlog and agile logbook, each with evidence and reflection.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>GrandCaddy: Agile Project Portfolio</h1>
+    <p><strong>YOUR NAME</strong> · Student no. YOUR STUDENT NUMBER</p>
+    <p>PRP370S Project Presentation 3 · Diploma in Information and Communication Technology · Cape Peninsula University of Technology</p>
+    <span class="badge">Role: Caddy/Helper user story owner</span>
+    <span class="badge">Wireframes and functionality</span>
+    <span class="badge">Database creation and connection</span>
+  </div>
+</header>
+
+<nav class="top" aria-label="Portfolio sections">
+  <div class="wrap"><ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#charter">1 Team Charter</a></li>
+    <li><a href="#stories">2 User Stories &amp; Tasks</a></li>
+    <li><a href="#product-backlog">3 Product Backlog</a></li>
+    <li><a href="#sprint-backlog">4 Sprint Backlog</a></li>
+    <li><a href="#logbook">5 Agile Logbook</a></li>
+    <li><a href="#connect">Connect</a></li>
+    <li><a href="#references">References</a></li>
+  </ul></div>
+</nav>
+
+<main>
+
+<!-- ============ ABOUT ============ -->
+<section class="part" id="about"><div class="wrap">
+  <h2>About this portfolio</h2>
+  <p class="lede">A record of how our team planned and built GrandCaddy using Agile, and what I learned doing it.</p>
+
+  <div class="panel">
+    <h3 style="margin-top:0">The project</h3>
+    <p>GrandCaddy is a community-based digital platform that connects people aged 60 and above with trusted, verified helpers (called <em>Caddies</em>) for everyday tasks such as cleaning, grocery shopping, gardening, painting and minor home repairs. Customers post a task with its details, location, date, time and the amount they are willing to pay, and an approved Caddy accepts it. The business uses a pay-per-task model, and its value proposition is <q>Real people, trusted service and simple usage</q>. Family members and caregivers are a secondary customer segment, and helpers must be approved before they provide services (GrandCaddy Team, 2026a). The solution is a responsive, three-tier website made up of a presentation layer, an application layer and a relational data layer (GrandCaddy Team, 2026b).</p>
+    <p>
+      <a class="btn" href="https://trello.com/b/0Xkqcaec/grandcaddy" target="_blank" rel="noopener">Open the GrandCaddy Trello board</a>
+    </p>
+  </div>
+
+  <div class="panel">
+    <h3 style="margin-top:0">My part in the project</h3>
+    <ul class="tight">
+      <li><strong>Caddy/Helper user story (User Story 2):</strong> defined how a helper registers, builds a profile, browses available tasks, views task details and accepts or rejects a task (14–17 July).</li>
+      <li><strong>Wireframes:</strong> created the application wireframes, defined the Caddy profile structure and set out criteria so the team's wireframes stayed consistent (21–24 July).</li>
+      <li><strong>Functionality and testing:</strong> added functionality to the homepage, helper and client wireframes, then tested how the pages work together (28–31 July and 4 August).</li>
+      <li><strong>Database:</strong> created the project database and connected it to the application so user information is stored safely (4–7 August).</li>
+    </ul>
+  </div>
+
+  <div class="panel">
+    <h3 style="margin-top:0">How the portfolio is organised</h3>
+    <p>The assessment brief describes four steps for building an e-portfolio: collect, select, reflect and connect (CPUT, 2026). Each of the five sections below follows them. I <strong>collected</strong> the artefacts from the project, <strong>selected</strong> the ones that best prove what I did, wrote a structured <strong>reflection</strong> on each, and then <strong>connect</strong>ed them in a closing section. Every section has two labelled parts: <em>Evidence</em> and <em>Reflection</em>. My reflections follow Gibbs' (1988) cycle: what happened, what I thought and felt, what worked and what did not, what I learnt, and what I will do next.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Section</th><th>Evidence</th><th>Reflection</th></tr></thead>
+      <tbody>
+        <tr><td><a href="#charter">1. Agile Team Charter</a></td><td>Charter and proof that it was followed</td><td>Gibbs cycle</td></tr>
+        <tr><td><a href="#stories">2. User Stories and Tasks</a></td><td>Stories, acceptance criteria, task breakdown</td><td>Gibbs cycle</td></tr>
+        <tr><td><a href="#product-backlog">3. Product Backlog</a></td><td>Prioritised backlog and how it changed</td><td>Gibbs cycle</td></tr>
+        <tr><td><a href="#sprint-backlog">4. Sprint Backlog</a></td><td>Four weekly sprint plans with outcomes</td><td>Gibbs cycle</td></tr>
+        <tr><td><a href="#logbook">5. Agile Logbook</a></td><td>All 16 daily entries and 4 walkthroughs</td><td>Gibbs cycle</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</div></section>
+
+<!-- ============ 1 CHARTER ============ -->
+<section class="part" id="charter"><div class="wrap">
+  <h2>1. Agile Team Charter</h2>
+  <p class="lede">An Agile team charter is a living, co-created social contract that defines a team's shared purpose, values, working agreements and boundaries (CPUT, 2026). Ours is built from the principles in the GrandCaddy business model and from the way we actually worked, as recorded in the logbook.</p>
+
+  <div class="panel evidence">
+    <span class="tag">Evidence</span>
+    <h3 style="margin-top:0">The GrandCaddy Team Charter</h3>
+    <div class="tablewrap"><table>
+      <tbody>
+        <tr><th scope="row">Purpose</th><td>To design and build GrandCaddy, a website where elderly people can safely and easily book trusted helpers for everyday tasks.</td></tr>
+        <tr><th scope="row">Shared values</th><td>Simplicity, accessibility, safety and trust. The business model is designed around exactly these four ideas (GrandCaddy Team, 2026a), so every design and technical decision is checked against them.</td></tr>
+        <tr><th scope="row">Team members and roles</th><td>
+          <ul class="tight">
+            <li><strong>YOUR NAME:</strong> Caddy/Helper user story owner; wireframes and functionality; database creation and connection.</li>
+            <li><strong>TEAMMATE NAME:</strong> role, for example Elderly Customer user story and wireframes.</li>
+            <li><strong>TEAMMATE NAME:</strong> role, for example Administrator user story and wireframes.</li>
+          </ul>
+          <span class="note">All members contribute to the shared backlog and take part in the daily stand-up.</span></td></tr>
+        <tr><th scope="row">Working agreements</th><td>
+          <ol class="tight">
+            <li>Work only on items that are on the board. Good ideas that are not yet planned, such as verification and ratings, are recorded as <em>future requirements</em> and are not built on the side.</li>
+            <li>Each member writes a stand-up entry in the logbook every working day: what I completed, what I plan next, and what is blocking me.</li>
+            <li>The team answers four walkthrough questions at the start of each week: what must we do to advance the work, is anyone working off the board, what must we finish, and what is blocking the flow.</li>
+            <li>The user interface stays simple. Large buttons, clear labels and simple navigation are required because the primary users are elderly (GrandCaddy Team, 2026b).</li>
+            <li>A piece of work is shared with the team for opinions before it is called final.</li>
+            <li>The team moves to the next phase together, only once everyone agrees the current phase is ready.</li>
+          </ol></td></tr>
+        <tr><th scope="row">Definition of done</th><td>An item is done when (a) it meets its acceptance criteria, (b) the team has reviewed it, (c) it works with the other pages it connects to, and (d) it has been tested.</td></tr>
+        <tr><th scope="row">Communication and ceremonies</th><td>Daily stand-up (Tuesday to Friday) recorded in the Agile Logbook; weekly walkthrough; Trello board as the single source of truth for status.</td></tr>
+        <tr><th scope="row">Boundaries and scope</th><td>In scope: customer journey, Caddy journey, administrator features, database and its connection to the application. Recorded as later requirements: full verification, ratings and reviews, payment and notification functionality.</td></tr>
+        <tr><th scope="row">Handling disagreement</th><td>Raise concerns openly in the stand-up, test the options against the shared values (simple, accessible, safe, trusted), and decide as a team before moving on.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Charter format: purpose, values, roles, agreements and boundaries as described in the assessment brief (CPUT, 2026).</p>
+
+    <h4>Proof that the charter was lived, not just written</h4>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Agreement</th><th>Logbook evidence</th></tr></thead>
+      <tbody>
+        <tr><td>Stay on the board</td><td>Every weekly walkthrough, question 2: <q>No major work was being completed outside the agreed GrandCaddy backlog.</q> On 14–17 July, verification and trust discussions were <q>recorded as future requirements rather than separate development tasks.</q></td></tr>
+        <tr><td>Daily stand-up</td><td>All 16 working days from 14 July to 7 August have a three-question entry (see <a href="#logbook">Section 5</a>).</td></tr>
+        <tr><td>Keep the UI simple</td><td>The risk of too much information on one screen was raised on 15 and 22 July; balancing the number of functions on 28 July.</td></tr>
+        <tr><td>Team review before final</td><td>16/07: <q>I plan to complete the user story and consult with my team to get their opinion on the final version.</q></td></tr>
+        <tr><td>Move on together</td><td>31/07: the risk that <q>not everyone is on board with the decision to move on to the next phase</q> was raised before the database phase started.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="panel reflection">
+    <span class="tag">Reflection</span>
+    <h3 style="margin-top:0">What the charter taught me</h3>
+    <div class="gibbs">
+      <div><h4>What happened</h4><p>At the start the team agreed what GrandCaddy was for, who it was for and how we would work. Because the business model already named simplicity, accessibility, safety and trust, the charter could build directly on those values.</p></div>
+      <div><h4>What I thought and felt</h4><p>A charter can feel like paperwork at the start. That changed for me when I noticed how often the logbook returned to the same worries: too much on one screen, and the team not being aligned. Those were exactly the things the charter was written to prevent.</p></div>
+      <div><h4>What worked and what did not</h4><p>The agreement to record unplanned ideas as future requirements worked well. It kept verification and ratings from pulling us away from the Caddy journey. What worked less well was that <q>keep it simple</q> stayed a general value. It did not tell us how to make every member's wireframes match, so on 21 July I flagged balancing everyone's wireframes as a risk and wrote wireframe criteria to close the gap.</p></div>
+      <div><h4>What I learnt</h4><p>A charter is only useful if it is specific enough to settle an argument. <q>Keep it simple</q> is a value, but <q>one helper per accepted task and no longer visible to others</q> is a rule that I could actually design against.</p></div>
+      <div><h4>What I will do next</h4><p>In my next team I will add an explicit decision rule and a review of the charter after the first sprint, so that it stays a living document, as the brief describes (CPUT, 2026).</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 2 USER STORIES ============ -->
+<section class="part" id="stories"><div class="wrap">
+  <h2>2. User Stories and Tasks</h2>
+  <p class="lede">A user story is a short description of a software feature written from the end user's perspective; the work behind it is then broken into tasks (CPUT, 2026; Cohn, 2004).</p>
+
+  <div class="panel evidence">
+    <span class="tag">Evidence</span>
+    <h3 style="margin-top:0">The three user stories</h3>
+    <div class="grid2">
+      <div class="card">
+        <h4>User Story 1: Elderly Customer</h4>
+        <div class="story">As an elderly customer, I want to post a task and choose a trusted helper using a simple screen, so that I can get help at home without struggling with technology.</div>
+        <p class="note">Board items: homepage, post task, task details, accessible navigation, Caddy selection, reviews, ratings, customer support.</p>
+      </div>
+      <div class="card mine">
+        <h4>User Story 2: Caddy/Helper (my story)</h4>
+        <div class="story">As a Caddy, I want to register, set up my profile, see available tasks and accept or reject them, so that I can earn money helping people in my community.</div>
+        <p class="note">Board items: Caddy onboarding, profile, available tasks, task details, accept/reject task, verification, ratings, reviews, earnings.</p>
+      </div>
+      <div class="card">
+        <h4>User Story 3: Administrator</h4>
+        <div class="story">As an administrator, I want to approve helpers, monitor tasks and payments and handle disputes, so that customers and their families can trust the platform.</div>
+        <p class="note">Board items: dashboard, user management, task monitoring, helper approval, verification document review, approve/reject helper, dispute management, payment monitoring.</p>
+      </div>
+    </div>
+
+    <h3>User Story 2 in detail (the story I wrote)</h3>
+    <p>The business model identifies helpers as a core segment who must be approved before they provide services, with background checks and ratings improving safety and quality (GrandCaddy Team, 2026a). I split my story into five smaller stories so that each could be finished, tested and demonstrated in one pass.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>ID</th><th>Story</th><th>Acceptance criteria</th></tr></thead>
+      <tbody>
+        <tr class="mine"><td>US-2.1</td><td>As a Caddy, I want a simple onboarding flow, so that I can join without a complicated registration.</td><td>
+          <ul class="tight"><li>Registration asks only for the information needed to build trust.</li><li>Each step is on one screen with clear labels.</li><li>The Caddy is told clearly that approval is required before work begins.</li></ul></td></tr>
+        <tr class="mine"><td>US-2.2</td><td>As a Caddy, I want to create a profile, so that customers can see who I am and decide whether to trust me.</td><td>
+          <ul class="tight"><li>Profile holds: name, picture, description, services offered, location, availability, experience, rating and verification status.</li><li>Fields that are not yet verified are clearly marked as such.</li></ul></td></tr>
+        <tr class="mine"><td>US-2.3</td><td>As a Caddy, I want to browse available tasks, so that I can choose work that suits me.</td><td>
+          <ul class="tight"><li>Only open tasks are listed.</li><li>A task that has been accepted by one Caddy is no longer shown to other Caddies.</li></ul></td></tr>
+        <tr class="mine"><td>US-2.4</td><td>As a Caddy, I want to see the task details, so that I can make an informed decision.</td><td>
+          <ul class="tight"><li>Shows task category, description, location, date and time, and payment offered.</li><li>Shows enough information to decide, without crowding the screen.</li></ul></td></tr>
+        <tr class="mine"><td>US-2.5</td><td>As a Caddy, I want to accept or reject a task, so that I stay in control of my own work.</td><td>
+          <ul class="tight"><li>Accept and reject are two clearly different buttons.</li><li>A confirmation message follows each action.</li><li>An accepted task is assigned to exactly one Caddy.</li></ul></td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Acceptance criteria are drawn from the requirements recorded in the 14–17 July logbook: onboarding, profile, available tasks, task details, accept/reject workflow, and the risk that one task must go to one helper only.</p>
+
+    <h3>Task breakdown (my tasks)</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Task</th><th>Story</th><th>Dates</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr class="mine"><td>Review group notes and start the Caddy user story</td><td>US-2</td><td>14 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Define the story structure and add its elements</td><td>US-2</td><td>15 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Complete the story and consult the team</td><td>US-2</td><td>16–17 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Create the home page layout and structural elements</td><td>Wireframes</td><td>21–22 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Define the Caddy profile structure</td><td>US-2.2</td><td>23 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Complete the wireframes and apply the profile structure</td><td>Wireframes</td><td>23–24 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Add functionality to the homepage buttons</td><td>Wireframes</td><td>28–29 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Add functionality to the helper and client wireframes</td><td>US-1, US-2</td><td>29–30 Jul</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Add the remaining pages and test the wireframes</td><td>All</td><td>31 Jul – 4 Aug</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Create the project database</td><td>Data layer</td><td>4–5 Aug</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Connect the database to the application</td><td>Data layer</td><td>5–7 Aug</td><td><span class="st done">Done</span></td></tr>
+        <tr class="mine"><td>Implement the database in the application</td><td>Data layer</td><td>From 7 Aug</td><td><span class="st prog">In progress</span></td></tr>
+      </tbody>
+    </table></div>
+
+    <h4>Quality check: INVEST</h4>
+    <p>I checked each Caddy story against the INVEST criteria: independent, negotiable, valuable, estimable, small and testable (Wake, 2003). Splitting one large story into US-2.1 to US-2.5 made each one small and testable, and the acceptance criteria above are what make them testable.</p>
+
+    <h4>Supporting artefact: the Caddy journey</h4>
+    <figure>
+      <svg viewBox="0 0 960 130" role="img" aria-label="Caddy journey: onboarding, profile, available tasks, task details, accept or reject, task assigned to one helper" style="width:100%;height:auto;background:#fff;border:1px solid #dcd6c8;border-radius:8px">
+        <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1f5c46"/></marker></defs>
+        <g font-family="system-ui,sans-serif" font-size="14" text-anchor="middle">
+          <g fill="#e8f1ec" stroke="#1f5c46" stroke-width="2">
+            <rect x="10" y="40" width="130" height="50" rx="10"/><rect x="170" y="40" width="130" height="50" rx="10"/><rect x="330" y="40" width="130" height="50" rx="10"/><rect x="490" y="40" width="130" height="50" rx="10"/><rect x="650" y="40" width="130" height="50" rx="10"/>
+          </g>
+          <rect x="810" y="40" width="140" height="50" rx="10" fill="#fdf1e0" stroke="#b8650a" stroke-width="2"/>
+          <g fill="#1d2b24"><text x="75" y="70">Onboarding</text><text x="235" y="70">Profile setup</text><text x="395" y="70">Browse tasks</text><text x="555" y="70">Task details</text><text x="715" y="70">Accept / reject</text><text x="880" y="62">Task assigned</text><text x="880" y="80">to one Caddy</text></g>
+          <g stroke="#1f5c46" stroke-width="2" marker-end="url(#ar)"><line x1="140" y1="65" x2="168" y2="65"/><line x1="300" y1="65" x2="328" y2="65"/><line x1="460" y1="65" x2="488" y2="65"/><line x1="620" y1="65" x2="648" y2="65"/><line x1="780" y1="65" x2="808" y2="65"/></g>
+        </g>
+      </svg>
+      <figcaption>Figure 1: The Caddy journey I defined on 14–17 July. Verification, ratings and payment are recorded as future requirements that plug into this flow.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/images/wireframe-caddy-profile.png" alt="Wireframe of the Caddy profile page" onerror="this.closest('figure').hidden=true">
+      <figcaption>Figure 2: Wireframe of the Caddy profile page (helper name, picture, description, services, location, availability, experience, rating, verification status).</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/images/wireframe-available-tasks.png" alt="Wireframe of the available tasks screen" onerror="this.closest('figure').hidden=true">
+      <figcaption>Figure 3: Wireframe of the available tasks and accept/reject screens.</figcaption>
+    </figure>
+  </div>
+
+  <div class="panel reflection">
+    <span class="tag">Reflection</span>
+    <h3 style="margin-top:0">Writing the Caddy user story</h3>
+    <div class="gibbs">
+      <div><h4>What happened</h4><p>Over four days I turned the team's notes into a complete Caddy story, then used it as the basis for the wireframes and later the database. I finished it on 17 July.</p></div>
+      <div><h4>What I thought and felt</h4><p>On 16 July I worried that my team might not like what I created and that I would have to <q>go back to the drawing board.</q> That worry made me consult them before calling it final, which is why the story held up.</p></div>
+      <div><h4>What worked and what did not</h4><p>Writing from the Caddy's point of view made the difficult trade-off visible: registration must be simple, but the profile must still create trust. Splitting the story into five parts worked well. What was harder was deciding how much information to show on one screen; I raised it on both 15 and 22 July.</p></div>
+      <div><h4>What I learnt</h4><p>A good story is the thing the rest of the project hangs from. The profile fields I listed on 23 July (name, picture, description, services, location, availability, experience, rating, verification status) later told me what the database needed to store, and the accept/reject criterion shaped how task status works.</p></div>
+      <div><h4>What I will do next</h4><p>I will write acceptance criteria at the same time as the story, not after, and test each story with a real user. For GrandCaddy that should include an elderly customer and a helper, because I wrote these stories from the team's notes and research.</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 3 PRODUCT BACKLOG ============ -->
+<section class="part" id="product-backlog"><div class="wrap">
+  <h2>3. Product Backlog</h2>
+  <p class="lede">A product backlog is a prioritised list of all the work, features, fixes and improvements the product needs (CPUT, 2026; Schwaber and Sutherland, 2020). The list below is ordered by priority using MoSCoW (Must, Should, Could).</p>
+
+  <div class="panel evidence">
+    <span class="tag">Evidence</span>
+    <h3 style="margin-top:0">GrandCaddy product backlog</h3>
+    <p>Source: the GrandCaddy Trello board and the Taskboard section of the weekly logbooks. <a href="https://trello.com/b/0Xkqcaec/grandcaddy" target="_blank" rel="noopener">View the Trello board</a>.</p>
+    <figure>
+      <img src="assets/images/trello-board.png" alt="Screenshot of the GrandCaddy Trello board" onerror="this.closest('figure').hidden=true">
+      <figcaption>Figure 4: The GrandCaddy Trello board.</figcaption>
+    </figure>
+    <div class="tablewrap"><table>
+      <thead><tr><th>ID</th><th>Epic / story</th><th>Backlog item</th><th>Priority</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr class="mine"><td>PB-01</td><td>US-2 Caddy</td><td>Caddy onboarding</td><td>Must</td><td><span class="st done">Defined, wireframed, tested</span></td></tr>
+        <tr class="mine"><td>PB-02</td><td>US-2 Caddy</td><td>Caddy profile</td><td>Must</td><td><span class="st done">Defined, wireframed, tested</span></td></tr>
+        <tr class="mine"><td>PB-03</td><td>US-2 Caddy</td><td>Available tasks and task details</td><td>Must</td><td><span class="st done">Defined, wireframed, tested</span></td></tr>
+        <tr class="mine"><td>PB-04</td><td>US-2 Caddy</td><td>Accept / reject task</td><td>Must</td><td><span class="st done">Defined, wireframed, tested</span></td></tr>
+        <tr><td>PB-05</td><td>US-1 Customer</td><td>Homepage</td><td>Must</td><td><span class="st done">Wireframed, tested</span></td></tr>
+        <tr><td>PB-06</td><td>US-1 Customer</td><td>Post task (description, location, date and time, payment)</td><td>Must</td><td><span class="st done">Wireframed, tested</span></td></tr>
+        <tr><td>PB-07</td><td>US-1 Customer</td><td>Accessible navigation</td><td>Must</td><td><span class="st done">Wireframed, tested</span></td></tr>
+        <tr><td>PB-08</td><td>US-1 Customer</td><td>Caddy selection</td><td>Must</td><td><span class="st done">Wireframed, tested</span></td></tr>
+        <tr class="mine"><td>PB-09</td><td>Data layer</td><td>Database creation, connection and implementation</td><td>Must</td><td><span class="st prog">Created and connected; implementing</span></td></tr>
+        <tr><td>PB-10</td><td>US-3 Admin</td><td>Admin dashboard and user management</td><td>Must</td><td><span class="st prog">Wireframed</span></td></tr>
+        <tr><td>PB-11</td><td>US-3 Admin</td><td>Helper approval, verification document review, approve/reject helper</td><td>Must</td><td><span class="st prog">Wireframed</span></td></tr>
+        <tr class="mine"><td>PB-12</td><td>US-2 Caddy</td><td>Verification</td><td>Must</td><td><span class="st todo">Future requirement</span></td></tr>
+        <tr><td>PB-13</td><td>Trust and safety</td><td>Trust and safety requirements (role-based access, secure storage, audit logs)</td><td>Must</td><td><span class="st todo">Requirements identified</span></td></tr>
+        <tr><td>PB-14</td><td>US-1 / US-2</td><td>Reviews and ratings</td><td>Should</td><td><span class="st todo">Future requirement</span></td></tr>
+        <tr><td>PB-15</td><td>Payments</td><td>Payment functionality; payment monitoring (admin)</td><td>Should</td><td><span class="st todo">Not started</span></td></tr>
+        <tr><td>PB-16</td><td>US-3 Admin</td><td>Task monitoring and dispute management</td><td>Should</td><td><span class="st prog">Wireframed</span></td></tr>
+        <tr><td>PB-17</td><td>US-1 Customer</td><td>Customer support</td><td>Should</td><td><span class="st todo">Not started</span></td></tr>
+        <tr><td>PB-18</td><td>Platform</td><td>Notification functionality</td><td>Could</td><td><span class="st todo">Not started</span></td></tr>
+        <tr class="mine"><td>PB-19</td><td>US-2 Caddy</td><td>Earnings</td><td>Could</td><td><span class="st todo">Not started</span></td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Priority reflects the trust-first values in the team charter: anything that decides whether a stranger can safely enter an elderly person's home ranks above convenience features.</p>
+
+    <h4>Backlog refinement: how the board changed</h4>
+    <p>Comparing the board in the 14–17 July logbook with the board in the 4–7 August logbook shows the backlog being refined as we learned more.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Area</th><th>Mid-July</th><th>Early August</th><th>Change</th></tr></thead>
+      <tbody>
+        <tr><td>Customer</td><td>Task description, location, date and time and payment as separate items; <q>Reviews and ratings</q> together</td><td>Combined into <q>Task details</q>; <q>Reviews</q> and <q>Ratings</q> split; <q>Customer support</q> added</td><td>Items merged and split; a new support need identified</td></tr>
+        <tr><td>Caddy</td><td>Onboarding, profile setup, task browsing, task details, accept, reject</td><td>Verification, Ratings, Reviews and Earnings added; accept and reject merged</td><td>Trust and income features added</td></tr>
+        <tr><td>Administrator</td><td>Dashboard, user management, helper verification, task monitoring, disputes, payments</td><td>Helper approval, verification document review and approve/reject helper added</td><td>Verification broken into specific admin actions</td></tr>
+        <tr><td>Planning</td><td>None</td><td>Business model canvas, solution architecture, user roles, trust and safety, payment, notifications</td><td>Business and architecture work added to the backlog</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="panel reflection">
+    <span class="tag">Reflection</span>
+    <h3 style="margin-top:0">Living with a changing backlog</h3>
+    <div class="gibbs">
+      <div><h4>What happened</h4><p>The backlog was not fixed. Between mid-July and early August the team split items, merged others and added verification, earnings and customer support as our understanding of the platform grew.</p></div>
+      <div><h4>What I thought and felt</h4><p>At first I expected a backlog to be a one-time list. Seeing items like <q>Verification</q> move from a note in my Caddy story to a full set of admin tasks showed me that refinement is normal and healthy.</p></div>
+      <div><h4>What worked and what did not</h4><p>Keeping verification, ratings and payment as <em>future requirements</em> let us finish a complete Caddy journey first. The weakness is that my wireframes and database now have to make room for features that are not built yet, which was a risk I logged on 17 July.</p></div>
+      <div><h4>What I learnt</h4><p>Prioritising is mostly about trust and dependency, not about what is easiest. Verification has to come before ratings and payments make sense, because both depend on knowing who the helper is.</p></div>
+      <div><h4>What I will do next</h4><p>I will add estimates and a clear definition of ready to each backlog item, and review the backlog formally at the start of each sprint, as the Scrum Guide recommends (Schwaber and Sutherland, 2020).</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 4 SPRINT BACKLOG ============ -->
+<section class="part" id="sprint-backlog"><div class="wrap">
+  <h2>4. Sprint Backlog</h2>
+  <p class="lede">A sprint backlog is an actionable plan, created by and for the developers, that outlines the specific work needed to achieve the sprint goal (CPUT, 2026). We worked in four one-week cycles, each with its own goal taken from that week's walkthrough.</p>
+
+  <div class="panel evidence">
+    <span class="tag">Evidence</span>
+    <h3 style="margin-top:0">Four weekly sprint plans</h3>
+    <figure>
+      <svg viewBox="0 0 960 150" role="img" aria-label="Timeline of four weekly sprints: Caddy user story, wireframes, functionality and testing, database" style="width:100%;height:auto;background:#fff;border:1px solid #dcd6c8;border-radius:8px">
+        <g font-family="system-ui,sans-serif" text-anchor="middle">
+          <rect x="10" y="30" width="225" height="80" rx="10" fill="#e8f1ec" stroke="#1f5c46" stroke-width="2"/>
+          <rect x="245" y="30" width="225" height="80" rx="10" fill="#e8f1ec" stroke="#1f5c46" stroke-width="2"/>
+          <rect x="480" y="30" width="225" height="80" rx="10" fill="#e8f1ec" stroke="#1f5c46" stroke-width="2"/>
+          <rect x="715" y="30" width="225" height="80" rx="10" fill="#fdf1e0" stroke="#b8650a" stroke-width="2"/>
+          <g font-size="13" fill="#56625b"><text x="122" y="22">14–17 July</text><text x="357" y="22">21–24 July</text><text x="592" y="22">28–31 July</text><text x="827" y="22">4–7 August</text></g>
+          <g font-size="15" font-weight="700" fill="#1d2b24"><text x="122" y="60">Sprint 1</text><text x="357" y="60">Sprint 2</text><text x="592" y="60">Sprint 3</text><text x="827" y="60">Sprint 4</text></g>
+          <g font-size="13" fill="#1d2b24"><text x="122" y="88">Caddy user story</text><text x="357" y="88">Wireframes</text><text x="592" y="88">Functionality + testing</text><text x="827" y="88">Database</text></g>
+        </g>
+      </svg>
+      <figcaption>Figure 5: Sprint timeline. (The Trello board labels the first sprint <q>Sprint 1</q>; I number the weekly cycles 1–4 for clarity.)</figcaption>
+    </figure>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Sprint</th><th>Sprint goal</th><th>Sprint backlog (committed)</th><th>My tasks</th><th>Outcome</th><th>Main risk logged</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>1</strong><br>14–17 Jul</td>
+          <td>Complete the Caddy/Helper user story and make sure it connects to the customer's task-posting journey.</td>
+          <td><ul class="tight"><li>Caddy onboarding flow</li><li>Profile requirements</li><li>Available task screen</li><li>Task details</li><li>Accept/reject workflow</li><li>Trust and safety requirements</li></ul></td>
+          <td>Write, refine and finish the Caddy user story; consult the team.</td>
+          <td>Basic onboarding, profile, available task and accept/reject requirements defined; initial Caddy journey completed; future verification and ratings identified.</td>
+          <td>Balancing simple registration with enough information to create trust; one accepted task must go to one helper only.</td>
+        </tr>
+        <tr>
+          <td><strong>2</strong><br>21–24 Jul</td>
+          <td>Complete the wireframes so the team knows the end goal before development continues.</td>
+          <td><ul class="tight"><li>Wireframes for all pages</li><li>Caddy profile structure</li><li>Wireframe criteria for consistency</li></ul></td>
+          <td>Create the homepage layout and wireframes; define the Caddy profile structure; set criteria for the team's wireframes.</td>
+          <td>Wireframes completed. Profile structure fixed: name, picture, description, services, location, availability, experience, rating, verification status.</td>
+          <td>Keeping every member's wireframes consistent; adding functionality would take considerable time.</td>
+        </tr>
+        <tr>
+          <td><strong>3</strong><br>28–31 Jul</td>
+          <td>Add functionality to the wireframes and test them so the flow is smooth and nobody is confused.</td>
+          <td><ul class="tight"><li>Test pages</li><li>Add functions to buttons</li><li>Check that functions flow properly</li></ul></td>
+          <td>Functionality for homepage (29 Jul), helper and client pages (30 Jul), last pages and start of testing (31 Jul).</td>
+          <td>All pages given functionality; testing begun.</td>
+          <td>Too many functions add complexity; two interactions leading to one place; team not ready for testing; team not aligned on moving on.</td>
+        </tr>
+        <tr>
+          <td><strong>4</strong><br>4–7 Aug</td>
+          <td>Connect the business to a database so user information is stored properly and safely.</td>
+          <td><ul class="tight"><li>Database creation</li><li>Database connection</li><li>Database implementation</li></ul></td>
+          <td>Finish testing (4 Aug); create the database (5 Aug); connect it to the application (6–7 Aug).</td>
+          <td>Wireframe testing completed; database created; connection finished on 7 Aug; implementation under way.</td>
+          <td>Connection problems on 6 Aug took longer than planned; the database may not cope with large numbers of simultaneous users.</td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <h4>Sprint 4 task board (from the 4–7 August logbook)</h4>
+    <div class="kanban">
+      <div class="col"><h5>Product backlog</h5>
+        <div class="kc"><b>Customer journey</b>Reviews, ratings, customer support</div>
+        <div class="kc"><b>Caddy features</b>Verification, ratings, reviews, earnings</div>
+        <div class="kc"><b>Admin features</b>Dispute management, payment monitoring</div>
+      </div>
+      <div class="col"><h5>In progress</h5>
+        <div class="kc"><b>Database implementation</b>Connection finished 7 Aug</div>
+        <div class="kc"><b>Trust and safety</b></div>
+        <div class="kc"><b>Payment and notification functionality</b></div>
+      </div>
+      <div class="col"><h5>Completed</h5>
+        <div class="kc"><b>Business model</b>Segments, value proposition, revenue model, resources, activities</div>
+        <div class="kc"><b>Solution architecture</b>Three-tier design</div>
+        <div class="kc"><b>Journeys reviewed</b>Customer, Caddy, administrator</div>
+        <div class="kc"><b>Wireframes</b>Built, given functionality and tested</div>
+        <div class="kc"><b>Database</b>Created and connected</div>
+      </div>
+    </div>
+
+    <h4>The data layer I built for in Sprint 4</h4>
+    <p>The solution architecture specifies a central relational database with tables for User, Customer, Helper, Administrator, FamilyMember, Task, TaskCategory, Verification, VerificationDocument, Payment, Review, Notification, Dispute and SupportTicket, and security measures including password hashing, role-based access, HTTPS and regular backups (GrandCaddy Team, 2026b). My Caddy profile structure and the accept/reject rule feed directly into the Helper, Verification and Task tables.</p>
+    <figure>
+      <img src="assets/images/database-diagram.png" alt="Database diagram or screenshot of the GrandCaddy database" onerror="this.closest('figure').hidden=true">
+      <figcaption>Figure 6: The GrandCaddy database.</figcaption>
+    </figure>
+  </div>
+
+  <div class="panel reflection">
+    <span class="tag">Reflection</span>
+    <h3 style="margin-top:0">Planning and delivering in weekly sprints</h3>
+    <div class="gibbs">
+      <div><h4>What happened</h4><p>Each week had a clear goal, and each goal built on the last: story, wireframes, functionality and testing, then the database. Most weeks finished what was planned. The exception was the database connection, which ran into a second day.</p></div>
+      <div><h4>What I thought and felt</h4><p>The database sprint was the most pressured. On 6 August I wrote that I <q>ran into some issues yesterday</q> and that the delay risked <q>too much time away from other components.</q> I was worried about slowing the team.</p></div>
+      <div><h4>What worked and what did not</h4><p>Having a single goal per week stopped the sprints becoming a pile of unrelated tasks. What did not work was estimating: on 5 August I planned to connect the application that day, and the connection was only finished on 7 August, after issues on the first attempt.</p></div>
+      <div><h4>What I learnt</h4><p>A sprint backlog is a commitment I can only keep if I plan with the unknowns in mind. Connecting systems has more unknowns than familiar work like wireframes, so it needs more buffer.</p></div>
+      <div><h4>What I will do next</h4><p>For unfamiliar work I will plan a short exploratory task first and size the real task after, so that my estimate is based on something. I will also test the database with more simultaneous users before deployment, because that was the open risk on 7 August.</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ 5 LOGBOOK ============ -->
+<section class="part" id="logbook"><div class="wrap">
+  <h2>5. Agile Logbook</h2>
+  <p class="lede">An agile logbook is a tracking tool used by teams to record daily stand-ups, sprint plans and retrospective notes (CPUT, 2026). Mine covers four weeks, 14 July to 7 August 2026.</p>
+
+  <div class="panel evidence">
+    <span class="tag">Evidence</span>
+    <h3 style="margin-top:0">How the logbook works</h3>
+    <p>Each weekly logbook has three parts: the <strong>Taskboard</strong> (product backlog, in progress, completed), a <strong>Walkthrough</strong> of four team questions, and my personal daily <strong>Logbook</strong> with three stand-up questions: what did I complete, what do I plan next, and what is blocking me.</p>
+    <p>
+      <a class="btn alt" href="assets/logbooks/Agile_Logbook_14-17_July_2026.docx">Download 14–17 July</a>
+      <a class="btn alt" href="assets/logbooks/Agile_Logbook_21-24_July_2026.docx">Download 21–24 July</a>
+      <a class="btn alt" href="assets/logbooks/Agile_Logbook_28-31_July_2026.docx">Download 28–31 July</a>
+      <a class="btn alt" href="assets/logbooks/Agile_Logbook_4-7_Aug_2026.docx">Download 4–7 August</a>
+    </p>
+    <p class="note">The original Word files are linked above. The entries below are my own words, with spelling and punctuation tidied.</p>
+
+    <details open><summary>Week 1: 14–17 July 2026 (Sprint 1, Caddy user story)</summary><div class="in">
+      <h4>Team walkthrough</h4>
+      <p class="q">What do we need to do to advance this piece of work?</p><p style="margin:2px 0 8px">We need to complete the Caddy/Helper user story by defining how a helper registers, creates a profile, views available tasks and accepts or rejects tasks. The team also needs to make sure the Caddy journey connects correctly with the elderly customer&#x27;s task-posting journey, and that the interface stays simple while giving helpers enough information to decide.</p>
+      <p class="q">Is anyone working on anything that is not on the board?</p><p style="margin:2px 0 8px">No major work was being completed outside the agreed GrandCaddy backlog. Discussions about verification, ratings and trust were recorded as future requirements rather than separate development tasks.</p>
+      <p class="q">What do we need to finish as a team?</p><p style="margin:2px 0 8px">Caddy onboarding, Caddy profile setup, available task browsing, task details, accept/reject functionality, the basic Caddy user journey, and requirements for future verification and ratings.</p>
+      <p class="q">Are there any bottlenecks or blockers to the flow of work?</p><p style="margin:2px 0 8px">Deciding how much information to show helpers without complicating the interface; making sure an accepted task is assigned to one helper and no longer shown to others; building verification and trust requirements into the later development stage.</p>
+      <h4>My daily stand-ups</h4>
+      <div class="tablewrap"><table><thead><tr><th>Date</th><th>Completed since last stand-up</th><th>Planned next</th><th>Impediments and risks</th></tr></thead><tbody>
+        <tr class="mine"><td><strong>14/07/2026</strong><br>Tuesday</td><td>I reviewed the notes that we made as a group and started with the user story.</td><td>I plan on reviewing what we have discussed and creating the user story using the proper information.</td><td>The main issue is balancing a simple registration process with the amount of information required to create trust. The profile should not be too complicated, because the platform needs to remain easy to use.</td></tr>
+        <tr class="mine"><td><strong>15/07/2026</strong><br>Wednesday</td><td>I helped define the Caddy user story structure and started adding the necessary elements.</td><td>I plan to work out what the target audience would gravitate to most, to improve the likelihood that they relate to the user story.</td><td>The main risk is including too much information on one screen. The team needs to keep the interface clear while still giving helpers enough information to make a decision.</td></tr>
+        <tr class="mine"><td><strong>16/07/2026</strong><br>Thursday</td><td>I continued with the same work from the previous day. I made progress and the user story is near completion.</td><td>I plan to complete the user story and consult with my team to get their opinion on the final version.</td><td>My team might not like what I have created and I would need to go back to the drawing board.</td></tr>
+        <tr class="mine"><td><strong>17/07/2026</strong><br>Friday</td><td>I completed the user story and am now getting ready for the next phase of the development process.</td><td>I plan to prepare the completed Caddy requirements for the next stage, which will involve expanding the Caddy journey by creating wireframes for the web pages.</td><td>There are no major blockers. The main risk is making sure the future verification, rating and payment features integrate correctly with the Caddy workflow.</td></tr>
+      </tbody></table></div>
+    </div></details>
+    <details open><summary>Week 2: 21–24 July 2026 (Sprint 2, wireframes)</summary><div class="in">
+      <h4>Team walkthrough</h4>
+      <p class="q">What do we need to do to advance this piece of work?</p><p style="margin:2px 0 8px">We need to complete the wireframes so that, when we continue development, we know what the end goal is and can work towards it with certainty.</p>
+      <p class="q">Is anyone working on anything that is not on the board?</p><p style="margin:2px 0 8px">No major work was being completed outside the agreed GrandCaddy backlog. The team stayed focused on the wireframes.</p>
+      <p class="q">What do we need to finish as a team?</p><p style="margin:2px 0 8px">The wireframes.</p>
+      <p class="q">Are there any bottlenecks or blockers to the flow of work?</p><p style="margin:2px 0 8px">Deciding how much information to show helpers without complicating the interface, and the risk that the designs do not complement what we are trying to achieve.</p>
+      <h4>My daily stand-ups</h4>
+      <div class="tablewrap"><table><thead><tr><th>Date</th><th>Completed since last stand-up</th><th>Planned next</th><th>Impediments and risks</th></tr></thead><tbody>
+        <tr class="mine"><td><strong>21/07/2026</strong><br>Tuesday</td><td>I completed the user story for GrandCaddy so that we have the information we need, and the wireframes will complement what we are trying to accomplish.</td><td>Start creating the layout for the home page and add structural elements to make development easy.</td><td>The main issue is balancing the wireframes that each member is making so that it all flows together.</td></tr>
+        <tr class="mine"><td><strong>22/07/2026</strong><br>Wednesday</td><td>I created the wireframes and added the elements needed to help with development of the application and my team.</td><td>I plan to define the criteria for all the wireframes to help the rest of my team stay organised, and to define the structure of the profiles.</td><td>The main risk is including too much information on one screen. The team needs to keep the interface clear while still giving helpers enough information to make a decision.</td></tr>
+        <tr class="mine"><td><strong>23/07/2026</strong><br>Thursday</td><td>I helped define the Caddy profile structure. The profile was planned to include: helper name, profile picture, description, services offered, location, availability, experience, rating and verification status.</td><td>I plan to complete the wireframes and apply the profile structure to them.</td><td>The structure we have chosen might not complement the wireframes, which would mean scrapping them and starting again.</td></tr>
+        <tr class="mine"><td><strong>24/07/2026</strong><br>Friday</td><td>I completed the wireframes and started preparing for the next phase, which is testing the wireframes and adding functionality to them.</td><td>I plan to prepare the wireframes so that, when we add functionality, there is no confusion about which button to select and where it leads.</td><td>Adding functionality will take considerable time, which will affect the project timeline.</td></tr>
+      </tbody></table></div>
+    </div></details>
+    <details open><summary>Week 3: 28–31 July 2026 (Sprint 3, functionality and testing)</summary><div class="in">
+      <h4>Team walkthrough</h4>
+      <p class="q">What do we need to do to advance this piece of work?</p><p style="margin:2px 0 8px">We need to complete the testing phase and add functionality to the wireframes so the application flows smoothly and users are not confused.</p>
+      <p class="q">Is anyone working on anything that is not on the board?</p><p style="margin:2px 0 8px">No major work was being completed outside the agreed GrandCaddy backlog. The team focused on adding and testing functionality.</p>
+      <p class="q">What do we need to finish as a team?</p><p style="margin:2px 0 8px">Test the pages, add functions to the buttons, and make sure the functions flow properly.</p>
+      <p class="q">Are there any bottlenecks or blockers to the flow of work?</p><p style="margin:2px 0 8px">The functionality might cause problems in the flow of the application, which would hurt the user experience and force changes.</p>
+      <h4>My daily stand-ups</h4>
+      <div class="tablewrap"><table><thead><tr><th>Date</th><th>Completed since last stand-up</th><th>Planned next</th><th>Impediments and risks</th></tr></thead><tbody>
+        <tr class="mine"><td><strong>28/07/2026</strong><br>Tuesday</td><td>I created the wireframes for the application and prepared them for the development that will happen this week.</td><td>I plan to add functionality to all the buttons on the homepage and make sure the necessary functions are added where applicable.</td><td>Balancing the functions: too many will add too much complexity to the application.</td></tr>
+        <tr class="mine"><td><strong>29/07/2026</strong><br>Wednesday</td><td>I added the necessary functionality to the homepage wireframe.</td><td>I plan to move on to the helper and client wireframes and add the necessary functionality to those.</td><td>Two interactions can lead to one place, which can cause problems for the flow of the application.</td></tr>
+        <tr class="mine"><td><strong>30/07/2026</strong><br>Thursday</td><td>I added functionality to the helper and client wireframes.</td><td>I plan to complete the rest of the wireframes, add any functionality I missed, and then begin testing the wireframes.</td><td>If I start testing before my team has finished their wireframes, the testing process will be delayed.</td></tr>
+        <tr class="mine"><td><strong>31/07/2026</strong><br>Friday</td><td>I added the last pages with their functionality and began testing how the wireframes work.</td><td>I plan to prepare for the next phase: meeting with the team to discuss and create the database.</td><td>The risk is that not everyone is on board with the decision to move on to the next phase of the project.</td></tr>
+      </tbody></table></div>
+    </div></details>
+    <details open><summary>Week 4: 4–7 August 2026 (Sprint 4, database)</summary><div class="in">
+      <h4>Team walkthrough</h4>
+      <p class="q">What do we need to do to advance this piece of work?</p><p style="margin:2px 0 8px">We need to connect the GrandCaddy business to a database so that when people use the application, their information is stored properly and safely.</p>
+      <p class="q">Is anyone working on anything that is not on the board?</p><p style="margin:2px 0 8px">No major work was being completed outside the agreed project activities. The team discussed which database would work best for the project.</p>
+      <p class="q">What do we need to finish as a team?</p><p style="margin:2px 0 8px">Database creation, database connection and database implementation.</p>
+      <p class="q">Are there any bottlenecks or blockers to the flow of work?</p><p style="margin:2px 0 8px">Making sure the database connects properly and that implementation goes smoothly.</p>
+      <h4>My daily stand-ups</h4>
+      <div class="tablewrap"><table><thead><tr><th>Date</th><th>Completed since last stand-up</th><th>Planned next</th><th>Impediments and risks</th></tr></thead><tbody>
+        <tr class="mine"><td><strong>4/08/2026</strong><br>Tuesday</td><td>I added functionality to all the wireframes and then completed the testing of the wireframes.</td><td>I plan to create a database for the project.</td><td>The main risk is ensuring that I create the database correctly.</td></tr>
+        <tr class="mine"><td><strong>5/08/2026</strong><br>Wednesday</td><td>I created the database for the project.</td><td>I plan to connect the application to the database to ensure the information people give will be stored safely.</td><td>The main risk is ensuring the database connects properly, because if it does not, the data cannot be stored.</td></tr>
+        <tr class="mine"><td><strong>6/08/2026</strong><br>Thursday</td><td>I began connecting the database to the application.</td><td>I am still connecting the application. I ran into some issues yesterday, so today I will still be busy with the connection.</td><td>The main risk is making sure that this does not continue to take too much time away from other components that need to be completed.</td></tr>
+        <tr class="mine"><td><strong>7/08/2026</strong><br>Friday</td><td>I finished connecting the database to the application.</td><td>I plan to implement the database in the application, so that when we reach the deployment phase we know all the information we receive will be stored safely.</td><td>The main risk is that the database we use may not handle large amounts of data at once. This will be tested if the number of active users grows.</td></tr>
+      </tbody></table></div>
+    </div></details>
+
+    <h3>What the logbook shows: impediments by theme</h3>
+    <p>Reading all 16 entries together shows four repeating themes in my impediments, and how I responded to each.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Theme</th><th>Dates raised</th><th>How it was handled</th></tr></thead>
+      <tbody>
+        <tr><td>Too much on one screen / too many functions</td><td>14, 15, 22, 28 Jul</td><td>Kept profile fields to the essentials; limited the functions added to each button; checked each page against the simplicity value in the charter.</td></tr>
+        <tr><td>Team alignment</td><td>16, 21, 30, 31 Jul</td><td>Consulted the team before finalising the user story; created wireframe criteria so everyone's pages matched; waited for the team before moving to the next phase.</td></tr>
+        <tr><td>Consistency between design and functionality</td><td>17, 23, 29 Jul</td><td>Fixed the profile structure before finishing the wireframes; reviewed the wireframes so that no two interactions led to the same place.</td></tr>
+        <tr><td>Time and technical risk</td><td>24 Jul, 5–7 Aug</td><td>Prepared the wireframes so functionality would be unambiguous; stayed on the database connection until finished; noted that scalability needs testing as users grow.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="panel reflection">
+    <span class="tag">Reflection</span>
+    <h3 style="margin-top:0">What keeping a logbook changed</h3>
+    <div class="gibbs">
+      <div><h4>What happened</h4><p>I wrote a stand-up entry every working day for four weeks. Looking back over the sixteen entries, you can see the project move from planning to design to build.</p></div>
+      <div><h4>What I thought and felt</h4><p>Writing the third question, <q>what are my impediments?</q>, was uncomfortable at first, because it meant admitting uncertainty. Over time it became the most useful question, because writing a risk down made me do something about it.</p></div>
+      <div><h4>What worked and what did not</h4><p>The daily rhythm worked: small, honest entries made it easy to see progress. The weakness was that some entries were repetitive or too general. The 21 July entry and the 16 July entry both describe finishing the user story, which blurs the timeline.</p></div>
+      <div><h4>What I learnt</h4><p>The impediments table above is the real value of the logbook. I had not planned the four themes, but they appear clearly once the entries are laid side by side. Most of my risks were about people and complexity, not technology.</p></div>
+      <div><h4>What I will do next</h4><p>I will make each entry specific (what, which page, which task) and add a short weekly retrospective to the logbook, because the brief describes retrospective notes as part of the tool (CPUT, 2026). I will also link each entry to the Trello card it relates to.</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ============ CONNECT ============ -->
+<section class="part" id="connect"><div class="wrap">
+  <h2>Connect: bringing it together</h2>
+  <p class="lede">The fourth step of the e-portfolio process is connecting the artefacts and reflections into a coherent whole (CPUT, 2026).</p>
+  <div class="panel">
+    <h3 style="margin-top:0">One thread through all five artefacts</h3>
+    <ul class="tight">
+      <li>The <strong>charter</strong> set the values (simple, accessible, safe, trusted) and the working agreements.</li>
+      <li>Those values shaped the <strong>user stories</strong>, especially my Caddy story, whose profile fields were chosen to build trust.</li>
+      <li>The stories became the <strong>product backlog</strong>, ordered so that trust features rank above convenience.</li>
+      <li>The backlog was cut into four <strong>sprints</strong>: story, wireframes, functionality and testing, database.</li>
+      <li>The <strong>logbook</strong> recorded what happened day by day and exposed the same four risks that the charter was meant to manage.</li>
+    </ul>
+    <h3>How I grew</h3>
+    <p>I started the project writing requirements from a team's notes. I finished it building a database that stores real users' information. Along the way, my main lesson changed from <q>get the document done</q> to <q>make decisions that the next step can build on</q>. The Caddy profile structure is the clearest example: one planning decision on 23 July became a wireframe, then a set of fields, then part of the data layer.</p>
+    <h3>What I am taking forward</h3>
+    <ul class="tight">
+      <li>Write acceptance criteria with the story.</li>
+      <li>Give unfamiliar work extra time and an exploratory task first.</li>
+      <li>Make charter agreements specific enough to settle disagreements.</li>
+      <li>Review the backlog and charter at the start of every sprint.</li>
+    </ul>
+  </div>
+</div></section>
+
+<!-- ============ REFERENCES ============ -->
+<section class="part" id="references"><div class="wrap">
+  <h2>References</h2>
+  <ol class="refs">
+    <li>Cape Peninsula University of Technology (CPUT) (2026) <em>PRP370S/PRP371S/PRP372S Project Presentation 3: Assessment 2, Portfolio of Evidence brief and GitHub portfolio rubric</em>. Cape Town: CPUT, Faculty of Informatics and Design. October.</li>
+    <li>Cohn, M. (2004) <em>User stories applied: for agile software development</em>. Boston: Addison-Wesley.</li>
+    <li>Gibbs, G. (1988) <em>Learning by doing: a guide to teaching and learning methods</em>. Oxford: Further Education Unit, Oxford Polytechnic.</li>
+    <li>GrandCaddy Team (2026a) <em>GrandCaddy business model</em>. Unpublished project document, CPUT.</li>
+    <li>GrandCaddy Team (2026b) <em>GrandCaddy solution architecture</em>. Unpublished project document, CPUT.</li>
+    <li>Schwaber, K. and Sutherland, J. (2020) <em>The Scrum Guide</em>. Available at: <a href="https://scrumguides.org/scrum-guide.html">https://scrumguides.org/scrum-guide.html</a> (Accessed: 27 October 2026).</li>
+    <li>Trello (2026) <em>GrandCaddy board</em>. Available at: <a href="https://trello.com/b/0Xkqcaec/grandcaddy">https://trello.com/b/0Xkqcaec/grandcaddy</a> (Accessed: 27 October 2026).</li>
+    <li>Wake, B. (2003) <em>INVEST in good stories, and SMART tasks</em>. Available at: <a href="https://xp123.com/invest-in-good-stories-and-smart-tasks/">https://xp123.com/invest-in-good-stories-and-smart-tasks/</a> (Accessed: 27 October 2026).</li>
+  </ol>
+</div></section>
+
+</main>
+
+<footer><div class="wrap">
+  <p>GrandCaddy Agile Portfolio · PRP370S · CPUT · October 2026</p>
+  <p>All content is my own work except where referenced in Harvard style above. Team documents are cited as shared project artefacts.</p>
+</div></footer>
+
+</body>
+</html>
