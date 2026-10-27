@@ -93,7 +93,7 @@ The backlog taught me that prioritisation is more than ordering tasks; it is abo
 The project was completed in four weekly sprint cycles:
 
 | Sprint | Focus | Outcome |
-|---|---|---|
+
 | Sprint 1 | Caddy user story | Defined the helper journey and acceptance criteria |
 | Sprint 2 | Wireframes | Designed the major screens and profile structure |
 | Sprint 3 | Functionality and testing | Added navigation and tested user flow |
@@ -117,10 +117,3 @@ These daily updates helped document the project as it evolved and gave evidence 
 
 ## Reflection
 The logbook was one of the most useful parts of the portfolio because it showed real progress over time. By writing my reflections and blockers each day, I noticed patterns in my work and became more aware of how to improve my process and decision-making.
-
-# Connection and Conclusion
-The Agile Team Charter, user stories, backlog, sprint plan, and logbook all connect to form one complete project story. The charter set the working values, the user stories translated those values into product work, and the backlog and sprint planning made that work manageable over time.
-
-This portfolio demonstrates not only what I built, but also how I worked. It shows that I can think from a user’s perspective, organise development work in an Agile way, and explain my process clearly through documentation and reflection.
-
----
