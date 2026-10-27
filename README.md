@@ -4,14 +4,14 @@ OBJECTIVE
 
 Seeking a software engineering internship to apply programming expertise and develop practical industry experience within a technology-driven organization.
 
-## CONTACT<br>
+CONTACT<br>
 • Email: 220489114@mycput.ac.za<br>
 • Phone: 071 868 9667 <br>
 • Address: 80 Pentz Street, Wellington, South Africa <br>
 • GitHub: https://github.com/LukeZyster <br>
 • LinkedIn: https://www.linkedin.com/in/luke-john-zyster-299908352/ <br>
 
-## EDUCATION<br>
+EDUCATION<br>
 2015 — 2019<br>
 National Senior Certificate<br>
 Huguenot High School<br>
@@ -22,7 +22,7 @@ Diploma in ICT: Applications Development<br>
 Cape Peninsula University of Technology<br>
 Cape Town, South Africa<br>
 
-## SKILLS<br>
+SKILLS<br>
 • Java<br>
 • Python<br>
 • SQL<br>
@@ -32,28 +32,28 @@ Cape Town, South Africa<br>
 • Git<br>
 • Agile / SCRUM<br>
 
-## Projects<br>
+Projects<br>
 • CPUT Student App<br>
 Application designed specifically for students that travel via university shuttles between campuses. <br>
 • Checkers 60/60 App redesign<br>
 Redesign of the Checkers 60/60 mobile app to add features that allow users to have a better user experience. <br>
 
-## References<br>
+References<br>
 • Zanephyn Keyser (Owner of ZK Productions) – 082 402 8892 – Email: keyserz@cput.ac.za<br>
 • Renzo (Employee of Checkers) – 063 896 2976<br>
 
-## MOCK INTERVIEW
+MOCK INTERVIEW
 <video width="640" height="360" controls>
   <source src="video/interview.mp4" type="video/mp4">
 </video>
 
-## Reflection on Mock Interview<br>
+Reflection on Mock Interview<br>
 I was tasked with doing a Mock Interview where I was asked to choose questions from a list and answer them to the best of my ability. I was only allowed to choose a certain number of questions, so I had to think carefully about what would best showcase my skills and communication ability. This helped me improve my confidence, organise my thoughts clearly, and respond in a professional and structured way under pressure.
 
-## Reflection of coding in Markdown <br>
+Reflection of coding in Markdown <br>
 I was required to code in Markdown for the first time, and the reason for this was to create a portfolio page for my GitHub account. Coding in Markdown was a new experience for me, so it took some time to understand the correct formatting and structure needed to present information clearly. However, through the process, I learned how to create headings, lists, links, and content blocks in a clean and readable format. This task also helped me improve my digital communication and presentation skills.
 
-## Reflection on using GitHub Pages <br>
+Reflection on using GitHub Pages <br>
 I was instructed to recreate my CV on a GitHub Page. The goal of this was to have a digital version of my CV and it was also a platform for me to add my mock interview on the same GitHub Page to create a more complete online portfolio. Using GitHub Pages taught me how to publish content online and how to present my work in a professional and accessible way. It also gave me a better understanding of web-based portfolio creation and how to manage content in a simple but effective format.
 
 # Agile Team Charter
@@ -85,7 +85,7 @@ Writing the user stories helped me understand that requirements must be written 
 ## Evidence
 The GrandCaddy product backlog was organised using priority levels based on what was most important for the product. The must-have items included the main customer journey, helper journey, and data requirements needed to support the app. The backlog helped the team stay focused on delivering the most valuable features first and prevented the project from becoming unstructured.
 
-This backlog was refined as the project progressed. The team added trust, verification, and safety requirements after learning more about the real product needs. This showed that backlog management is not static; it evolves as feedback and understanding improve. It also confirmed the value of reviewing priorities regularly during the project lifecycle.
+This backlog was refined as the project progressed. The team added trust, verification, and safety requirements after learning more about the real product needs. This showed that backlog management is not static; it evolves as feedback and understanding improves. It also confirmed the value of reviewing priorities regularly during the project lifecycle.
 
 ## Reflection
 The backlog taught me that prioritisation is more than ordering tasks; it is about deciding what must be built first to create a safe and usable system. The product was designed around trust and usability, and those priorities influenced the way work was scheduled. I learned that a properly maintained backlog supports team alignment and makes it easier to respond to changing requirements.
