@@ -46,26 +46,26 @@ MOCK INTERVIEW
 </video>
 
 Reflection on Mock Interview<br>
-I was tasked with doing a Mock Interview where I was asked to choose questions from a list and answer them to the best of my ability, I only was only allowed to choose a certain amount of questions effective.
+I was tasked with doing a Mock Interview where I was asked to choose questions from a list and answer them to the best of my ability, I only was only allowed to choose a certain amount of question[...] 
 
 Reflection of coding in Markdown <br>
-I was required to code in markdown for the first time and the reason for this was to create a portfolio page for my GitHub account. Coding in markdown was a new experience for me so it took some time to learn and understand how to format the page properly.
+I was required to code in markdown for the first time and the reason for this was to create a portfolio page for my GitHub account. Coding in markdown was a new experience for me so it took some t[...]
 
 Reflection on using GitHub Pages <br>
-I was instructed to recreate my CV on a GitHub Page. The goal of this was to have a digital version of my CV and it was also a platform for me to add my mock interview on the same GitHub Page to create one complete portfolio.
+I was instructed to recreate my CV on a GitHub Page. The goal of this was to have a digital version of my CV and it was also a platform for me to add my mock interview on the same GitHub Page to c[...]
 
 # Agile Team Charter
 ## Evidence
-The GrandCaddy project was built using an Agile Team Charter that defined the team’s purpose, shared values, roles, working agreements, and boundaries. The charter focused on the product’s core goals and ensured that everyone understood how work should be coordinated.
+The GrandCaddy project was built using an Agile Team Charter that defined the team’s purpose, shared values, roles, working agreements, and boundaries. The charter focused on the product’s core objectives and made expectations clear from the start so everyone understood how the project should operate. It also set boundaries around scope, responsibilities, and decision-making, which helped keep the team aligned.
 
-The charter also included a clear definition of done: an item was only finished once it met acceptance criteria, had been reviewed by the team, and had been tested. This helped keep our development process consistent and focused.
+The charter also included a clear definition of done: an item was only finished once it met acceptance criteria, had been reviewed by the team, and had been tested. This helped keep our development process organised and ensured that work was not considered complete before it was truly ready.
 
 ## Reflection
-This charter was important because it created a shared understanding of how the team should work together. It helped us avoid scope creep and kept the project aligned with user needs, especially in a collaborative environment.
+This charter was important because it created a shared understanding of how the team should work together. It helped us avoid scope creep and kept the project aligned with user needs, especially in areas like simplicity, trust, and usability. I learned that a good team charter is not just documentation; it is a practical guide for how a team collaborates, makes decisions, and maintains quality.
 
 # User Stories and Tasks
 ## Evidence
-The main project story I developed was the Caddy/Helper user story. It focused on the helper journey from registration and profile creation to browsing available tasks, viewing task details, and accepting or rejecting a task.
+The main project story I developed was the Caddy/Helper user story. It focused on the helper journey from registration and profile creation to browsing available tasks, viewing task details, and accepting or rejecting tasks. This was broken into smaller user stories to make the process easier to plan, prioritise, and test.
 
 The story was broken into smaller parts:
 - US-2.1: Onboarding flow
@@ -74,26 +74,26 @@ The story was broken into smaller parts:
 - US-2.4: View task details
 - US-2.5: Accept or reject a task
 
-This structure made the work manageable and testable. Each story had acceptance criteria so the team knew exactly what “done” looked like. The main priority was to keep the process simple while still covering essential user needs.
+This structure made the work manageable and testable. Each story had acceptance criteria so the team knew exactly what “done” looked like. The main priority was to keep the process simple while still meeting the needs of the user and the business.
 
 ## Reflection
-Writing the user stories helped me understand that requirements must be written from the user’s perspective. It also showed me that tasks should be small enough to be completed and tested in a structured way.
+Writing the user stories helped me understand that requirements must be written from the user’s perspective. It also showed me that tasks should be small enough to be completed and tested in a sprint without becoming unclear or overwhelming. This experience improved my ability to break large ideas into workable pieces.
 
 # Product Backlog
 ## Evidence
-The GrandCaddy product backlog was organised using priority levels based on what was most important for the product. The Must-have items included the main customer journey, helper journey, and data structure needed to support the application.
+The GrandCaddy product backlog was organised using priority levels based on what was most important for the product. The Must-have items included the main customer journey, helper journey, and data structures required to support the platform. Nice-to-haves and future requirements, such as trust and verification, were postponed until later, which kept the project focused.
 
-This backlog was refined as the project progressed. The team added trust, verification, and safety requirements after learning more about the real product needs. This showed that backlog management is an ongoing process rather than a one-time activity.
+This backlog was refined as the project progressed. The team added trust, verification, and safety requirements after learning more about the real product needs. This showed that backlog management should remain flexible as the team’s understanding grows.
 
 ## Reflection
-The backlog taught me that prioritisation is more than ordering tasks; it is about deciding what must be built first to create a safe and usable system. The product was designed around trust and usability, so backlog decisions reflected those priorities.
+The backlog taught me that prioritisation is more than ordering tasks; it is about deciding what must be built first to create a safe and usable system. The product was designed around trust and usability, which made me realise that good product planning requires both business thinking and user-centred thinking.
 
 # Sprint Backlog
 ## Evidence
 The project was completed in four weekly sprint cycles:
 
 | Sprint | Focus | Outcome |
-
+| --- | --- | --- |
 | Sprint 1 | Caddy user story | Defined the helper journey and acceptance criteria |
 | Sprint 2 | Wireframes | Designed the major screens and profile structure |
 | Sprint 3 | Functionality and testing | Added navigation and tested user flow |
@@ -102,18 +102,142 @@ The project was completed in four weekly sprint cycles:
 Each sprint had a clear goal and a set of tasks to complete. This structure helped the team work progressively and reduced confusion about what needed to be finished before moving on.
 
 ## Reflection
-The sprint backlog showed me how Agile planning works in practice. Each week had a clear purpose, and each purpose built on the previous one. I learned that realistic planning matters, especially when balancing user needs, team capacity, and technical constraints.
+The sprint backlog showed me how Agile planning works in practice. Each week had a clear purpose, and each purpose built on the previous one. I learned that realistic planning matters, especially in software work where the team needs to balance delivery with quality and clarity.
 
 # Agile Logbook
+## How the logbook works
+Each weekly logbook has three parts: the Taskboard (product backlog, in progress, completed), a Walkthrough of four team questions, and my personal daily Logbook with three stand-up questions: what did I complete, what do I plan next, and what is blocking me.
+
+Download 14–17 July
+Download 21–24 July
+Download 28–31 July
+Download 4–7 August
+
+The original Word files are linked above. The entries below are my own words, with spelling and punctuation tidied.
+
+### Week 1: 14–17 July 2026 (Sprint 1, Caddy user story)
+#### Team walkthrough
+What do we need to do to advance this piece of work?
+
+We need to complete the Caddy/Helper user story by defining how a helper registers, creates a profile, views available tasks and accepts or rejects tasks. The team also needs to make sure the Caddy journey connects correctly with the elderly customer's task-posting journey, and that the interface stays simple while giving helpers enough information to decide.
+
+Is anyone working on anything that is not on the board?
+
+No major work was being completed outside the agreed GrandCaddy backlog. Discussions about verification, ratings and trust were recorded as future requirements rather than separate development tasks.
+
+What do we need to finish as a team?
+
+Caddy onboarding, Caddy profile setup, available task browsing, task details, accept/reject functionality, the basic Caddy user journey, and requirements for future verification and ratings.
+
+Are there any bottlenecks or blockers to the flow of work?
+
+Deciding how much information to show helpers without complicating the interface; making sure an accepted task is assigned to one helper and no longer shown to others; building verification and trust requirements into the later development stage.
+
+#### My daily stand-ups
+| Date | Completed since last stand-up | Planned next | Impediments and risks |
+| --- | --- | --- | --- |
+| 14/07/2026 | I reviewed the notes that we made as a group and started with the user story. | I plan on reviewing what we have discussed and creating the user story using the proper information. | The main issue is balancing a simple registration process with the amount of information required to create trust. The profile should not be too complicated, because the platform needs to remain easy to use. |
+| 15/07/2026 | I helped define the Caddy user story structure and started adding the necessary elements. | I plan to work out what the target audience would gravitate to most, to improve the likelihood that they relate to the user story. | The main risk is including too much information on one screen. The team needs to keep the interface clear while still giving helpers enough information to make a decision. |
+| 16/07/2026 | I continued with the same work from the previous day. I made progress and the user story is near completion. | I plan to complete the user story and consult with my team to get their opinion on the final version. | My team might not like what I have created and I would need to go back to the drawing board. |
+| 17/07/2026 | I completed the user story and am now getting ready for the next phase of the development process. | I plan to prepare the completed Caddy requirements for the next stage, which will involve expanding the Caddy journey by creating wireframes for the web pages. | There are no major blockers. The main risk is making sure the future verification, rating and payment features integrate correctly with the Caddy workflow. |
+
+### Week 2: 21–24 July 2026 (Sprint 2, wireframes)
+#### Team walkthrough
+What do we need to do to advance this piece of work?
+
+We need to complete the wireframes so that, when we continue development, we know what the end goal is and can work towards it with certainty.
+
+Is anyone working on anything that is not on the board?
+
+No major work was being completed outside the agreed GrandCaddy backlog. The team stayed focused on the wireframes.
+
+What do we need to finish as a team?
+
+The wireframes.
+
+Are there any bottlenecks or blockers to the flow of work?
+
+Deciding how much information to show helpers without complicating the interface, and the risk that the designs do not complement what we are trying to achieve.
+
+#### My daily stand-ups
+| Date | Completed since last stand-up | Planned next | Impediments and risks |
+| --- | --- | --- | --- |
+| 21/07/2026 | I completed the user story for GrandCaddy so that we have the information we need, and the wireframes will complement what we are trying to accomplish. | Start creating the layout for the home page and add structural elements to make development easy. | The main issue is balancing the wireframes that each member is making so that it all flows together. |
+| 22/07/2026 | I created the wireframes and added the elements needed to help with development of the application and my team. | I plan to define the criteria for all the wireframes to help the rest of my team stay organised, and to define the structure of the profiles. | The main risk is including too much information on one screen. The team needs to keep the interface clear while still giving helpers enough information to make a decision. |
+| 23/07/2026 | I helped define the Caddy profile structure. The profile was planned to include: helper name, profile picture, description, services offered, location, availability, experience, rating and verification status. | I plan to complete the wireframes and apply the profile structure to them. | The structure we have chosen might not complement the wireframes, which would mean scrapping them and starting again. |
+| 24/07/2026 | I completed the wireframes and started preparing for the next phase, which is testing the wireframes and adding functionality to them. | I plan to prepare the wireframes so that, when we add functionality, there is no confusion about which button to select and where it leads. | Adding functionality will take considerable time, which will affect the project timeline. |
+
+### Week 3: 28–31 July 2026 (Sprint 3, functionality and testing)
+#### Team walkthrough
+What do we need to do to advance this piece of work?
+
+We need to complete the testing phase and add functionality to the wireframes so the application flows smoothly and users are not confused.
+
+Is anyone working on anything that is not on the board?
+
+No major work was being completed outside the agreed GrandCaddy backlog. The team focused on adding and testing functionality.
+
+What do we need to finish as a team?
+
+Test the pages, add functions to the buttons, and make sure the functions flow properly.
+
+Are there any bottlenecks or blockers to the flow of work?
+
+The functionality might cause problems in the flow of the application, which would hurt the user experience and force changes.
+
+#### My daily stand-ups
+| Date | Completed since last stand-up | Planned next | Impediments and risks |
+| --- | --- | --- | --- |
+| 28/07/2026 | I created the wireframes for the application and prepared them for the development that will happen this week. | I plan to add functionality to all the buttons on the homepage and make sure the necessary functions are added where applicable. | Balancing the functions: too many will add too much complexity to the application. |
+| 29/07/2026 | I added the necessary functionality to the homepage wireframe. | I plan to move on to the helper and client wireframes and add the necessary functionality to those. | Two interactions can lead to one place, which can cause problems for the flow of the application. |
+| 30/07/2026 | I added functionality to the helper and client wireframes. | I plan to complete the rest of the wireframes, add any functionality I missed, and then begin testing the wireframes. | If I start testing before my team has finished their wireframes, the testing process will be delayed. |
+| 31/07/2026 | I added the last pages with their functionality and began testing how the wireframes work. | I plan to prepare for the next phase: meeting with the team to discuss and create the database. | The risk is that not everyone is on board with the decision to move on to the next phase of the project. |
+
+### Week 4: 4–7 August 2026 (Sprint 4, database)
+#### Team walkthrough
+What do we need to do to advance this piece of work?
+
+We need to connect the GrandCaddy business to a database so that when people use the application, their information is stored properly and safely.
+
+Is anyone working on anything that is not on the board?
+
+No major work was being completed outside the agreed project activities. The team discussed which database would work best for the project.
+
+What do we need to finish as a team?
+
+Database creation, database connection and database implementation.
+
+Are there any bottlenecks or blockers to the flow of work?
+
+Making sure the database connects properly and that implementation goes smoothly.
+
+#### My daily stand-ups
+| Date | Completed since last stand-up | Planned next | Impediments and risks |
+| --- | --- | --- | --- |
+| 4/08/2026 | I added functionality to all the wireframes and then completed the testing of the wireframes. | I plan to create a database for the project. | The main risk is ensuring that I create the database correctly. |
+| 5/08/2026 | I created the database for the project. | I plan to connect the application to the database to ensure the information people give will be stored safely. | The main risk is ensuring the database connects properly, because if it does not, the data cannot be stored. |
+| 6/08/2026 | I began connecting the database to the application. | I am still connecting the application. I ran into some issues yesterday, so today I will still be busy with the connection. | The main risk is making sure that this does not continue to take too much time away from other components that need to be completed. |
+| 7/08/2026 | I finished connecting the database to the application. | I plan to implement the database in the application, so that when we reach the deployment phase we know all the information we receive will be stored safely. | The main risk is that the database we use may not handle large amounts of data at once. This will be tested if the number of active users grows. |
+
+#### What the logbook shows: impediments by theme
+Reading all 16 entries together shows four repeating themes in my impediments, and how I responded to each.
+
+| Theme | Dates raised | How it was handled |
+| --- | --- | --- |
+| Too much on one screen / too many functions | 14, 15, 22, 28 Jul | Kept profile fields to the essentials; limited the functions added to each button; checked each page against the simplicity value in the charter. |
+| Team alignment | 16, 21, 30, 31 Jul | Consulted the team before finalising the user story; created wireframe criteria so everyone's pages matched; waited for the team before moving to the next phase. |
+| Consistency between design and functionality | 17, 23, 29 Jul | Fixed the profile structure before finishing the wireframes; reviewed the wireframes so that no two interactions led to the same place. |
+| Time and technical risk | 24 Jul, 5–7 Aug | Prepared the wireframes so functionality would be unambiguous; stayed on the database connection until finished; noted that scalability needs testing as users grow. |
+
 ## Evidence
 The logbook captured daily stand-up entries for each working day, including:
 - what was completed,
 - what would be done next,
 - what was blocking progress.
 
-The entries from the four project weeks show the project moving from planning to design, testing, and database implementation. The logbook also revealed recurring issues such as simplifying the interface and improving functionality across the workflow.
+The entries from the four project weeks show the project moving from planning to design, testing, and database implementation. The logbook also revealed recurring issues such as simplifying the interface, improving alignment, and managing technical risk.
 
 These daily updates helped document the project as it evolved and gave evidence that the team worked in an Agile and reflective way.
 
 ## Reflection
-The logbook was one of the most useful parts of the portfolio because it showed real progress over time. By writing my reflections and blockers each day, I noticed patterns in my work and became more aware of how to improve my process and decision-making.
+The logbook was one of the most useful parts of the portfolio because it showed real progress over time. By writing my reflections and blockers each day, I noticed patterns in my work and became more aware of the issues that needed attention. It helped me improve my planning, communication, and problem-solving throughout the project.
