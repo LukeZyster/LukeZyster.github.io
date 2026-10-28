@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LukeZyster.github.io</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
       :root {
         --bg: #0d1117;
@@ -16,6 +17,7 @@
         --link: #58a6ff;
         --accent: #238636;
         --table-header: #161b22;
+        --code-bg: rgba(110, 118, 129, 0.4);
       }
 
       * { box-sizing: border-box; }
@@ -76,16 +78,20 @@
       .markdown-body p,
       .markdown-body li,
       .markdown-body td,
-      .markdown-body th {
+      .markdown-body th,
+      .markdown-body blockquote {
         color: var(--text);
       }
 
-      .markdown-body p {
-        margin: 0 0 16px;
-      }
-
-      .markdown-body strong {
-        color: var(--heading);
+      .markdown-body p,
+      .markdown-body ul,
+      .markdown-body ol,
+      .markdown-body table,
+      .markdown-body blockquote,
+      .markdown-body pre,
+      .markdown-body hr {
+        margin-top: 0;
+        margin-bottom: 16px;
       }
 
       .markdown-body a {
@@ -97,23 +103,17 @@
         text-decoration: underline;
       }
 
+      .markdown-body strong {
+        color: var(--heading);
+      }
+
       .markdown-body ul,
       .markdown-body ol {
         padding-left: 2em;
-        margin-top: 0;
-        margin-bottom: 16px;
       }
 
       .markdown-body li + li {
         margin-top: 4px;
-      }
-
-      .markdown-body hr {
-        height: 0.25em;
-        padding: 0;
-        margin: 24px 0;
-        background-color: var(--border);
-        border: 0;
       }
 
       .markdown-body table {
@@ -123,7 +123,6 @@
         overflow: auto;
         border-spacing: 0;
         border-collapse: collapse;
-        margin: 16px 0;
         border: 1px solid var(--border);
       }
 
@@ -138,16 +137,9 @@
         font-weight: 600;
       }
 
-      .markdown-body blockquote {
-        margin: 0 0 16px;
-        padding: 0 1em;
-        color: var(--muted);
-        border-left: 0.25em solid var(--border);
-      }
-
       .markdown-body code {
         padding: 0.2em 0.4em;
-        background: rgba(110, 118, 129, 0.4);
+        background: var(--code-bg);
         border-radius: 6px;
         font-size: 85%;
       }
@@ -165,227 +157,61 @@
         padding: 0;
       }
 
-      .video-wrap {
-        width: 100%;
-        max-width: 640px;
-        margin: 20px 0;
+      .markdown-body blockquote {
+        margin-left: 0;
+        padding: 0 1em;
+        border-left: 0.25em solid var(--border);
       }
 
-      .video-wrap video {
-        width: 100%;
-        height: auto;
+      .markdown-body hr {
+        height: 0.25em;
+        padding: 0;
+        background-color: var(--border);
+        border: 0;
+      }
+
+      .markdown-body video {
+        max-width: 100%;
         border: 1px solid var(--border);
         border-radius: 6px;
-        background: #000;
+      }
+
+      .loading {
+        color: var(--muted);
+        padding-top: 24px;
       }
     </style>
   </head>
   <body>
-    <main class="page markdown-body">
-      <h1>LukeZyster.github.io</h1>
-
-      <h2>OBJECTIVE</h2>
-      <p>
-        Seeking a software engineering internship to apply programming expertise and develop practical
-        industry experience within a technology-driven organization.
-      </p>
-
-      <h2>CONTACT</h2>
-      <ul>
-        <li>Email: 220489114@mycput.ac.za</li>
-        <li>Phone: 071 868 9667</li>
-        <li>Address: 80 Pentz Street, Wellington, South Africa</li>
-        <li>GitHub: <a href="https://github.com/LukeZyster">https://github.com/LukeZyster</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/luke-john-zyster-299908352/">https://www.linkedin.com/in/luke-john-zyster-299908352/</a></li>
-      </ul>
-
-      <h2>EDUCATION</h2>
-      <p><strong>2015 — 2019</strong><br />National Senior Certificate<br />Huguenot High School<br />Wellington, South Africa</p>
-      <p><strong>2024 — Present</strong><br />Diploma in ICT: Applications Development<br />Cape Peninsula University of Technology<br />Cape Town, South Africa</p>
-
-      <h2>SKILLS</h2>
-      <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>IoT</li>
-        <li>Project Management</li>
-        <li>Tooling &amp; Practices</li>
-        <li>Git</li>
-        <li>Agile / SCRUM</li>
-      </ul>
-
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>CPUT Student App</strong><br />Application designed specifically for students that travel via university shuttles between campuses.</li>
-        <li><strong>Checkers 60/60 App redesign</strong><br />Redesign of the Checkers 60/60 mobile app to add features that allow users to have a better user experience.</li>
-      </ul>
-
-      <h2>References</h2>
-      <ul>
-        <li>Zanephyn Keyser (Owner of ZK Productions) – 082 402 8892 – Email: keyserz@cput.ac.za</li>
-        <li>Renzo (Employee of Checkers) – 063 896 2976</li>
-      </ul>
-
-      <h2>MOCK INTERVIEW</h2>
-      <div class="video-wrap">
-        <video controls>
-          <source src="video/interview.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-
-      <h2>Reflection on Mock Interview</h2>
-      <p>
-        I was tasked with doing a Mock Interview where I was asked to choose questions from a list and
-        answer them to the best of my ability. I was only allowed to choose a certain number of questions,
-        so I had to prioritise those that best showed my knowledge, communication, and professionalism.
-      </p>
-
-      <h2>Reflection of coding in Markdown</h2>
-      <p>
-        I was required to code in Markdown for the first time, and the reason for this was to create a
-        portfolio page for my GitHub account. Coding in Markdown was a new experience, so it took some
-        time to learn how to structure content in a clear and readable way.
-      </p>
-
-      <h2>Reflection on using GitHub Pages</h2>
-      <p>
-        I was instructed to recreate my CV on a GitHub Page. The goal of this was to have a digital version
-        of my CV and also a platform for me to add my mock interview to the same page so it worked as a
-        complete portfolio experience.
-      </p>
-
-      <h2>Agile Team Charter</h2>
-      <h3>Evidence</h3>
-      <p>
-        The GrandCaddy project was built using an Agile Team Charter that defined the team’s purpose,
-        shared values, roles, working agreements, and boundaries. The charter focused on the product’s
-        customer journey and kept the team aligned around practical outcomes.
-      </p>
-
-      <h3>Reflection</h3>
-      <p>
-        This charter was important because it created a shared understanding of how the team should work
-        together. It helped us avoid scope creep and kept the project aligned with user needs,
-        especially in relation to trust, usability, and clarity of communication.
-      </p>
-
-      <h2>User Stories and Tasks</h2>
-      <h3>Evidence</h3>
-      <p>
-        The main project story I developed was the Caddy/Helper user story. It focused on the helper
-        journey from registration and profile creation to browsing available tasks, viewing task details,
-        and accepting or rejecting a task.
-      </p>
-      <ul>
-        <li>US-2.1: Onboarding flow</li>
-        <li>US-2.2: Profile creation</li>
-        <li>US-2.3: Browse available tasks</li>
-        <li>US-2.4: View task details</li>
-        <li>US-2.5: Accept or reject a task</li>
-      </ul>
-
-      <h3>Reflection</h3>
-      <p>
-        Writing the user stories helped me understand that requirements must be written from the user’s
-        perspective. It also showed me that tasks should be small enough to be completed and tested in a
-        structured way.
-      </p>
-
-      <h2>Product Backlog</h2>
-      <h3>Evidence</h3>
-      <p>
-        The GrandCaddy product backlog was organised using priority levels based on what was most important
-        for the product. The must-have items included the main customer journey, helper journey, and data
-        functions required to support the application.
-      </p>
-
-      <h3>Reflection</h3>
-      <p>
-        The backlog taught me that prioritisation is more than ordering tasks; it is about deciding what
-        must be built first to create a safe and usable system. The product was designed around trust and user
-        confidence.
-      </p>
-
-      <h2>Sprint Backlog</h2>
-      <h3>Evidence</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Sprint</th>
-            <th>Focus</th>
-            <th>Outcome</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Sprint 1</td>
-            <td>Caddy user story</td>
-            <td>Defined the helper journey and acceptance criteria</td>
-          </tr>
-          <tr>
-            <td>Sprint 2</td>
-            <td>Wireframes</td>
-            <td>Designed the major screens and profile structure</td>
-          </tr>
-          <tr>
-            <td>Sprint 3</td>
-            <td>Functionality and testing</td>
-            <td>Added navigation and tested user flow</td>
-          </tr>
-          <tr>
-            <td>Sprint 4</td>
-            <td>Database</td>
-            <td>Created and connected the database to the application</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h3>Reflection</h3>
-      <p>
-        The sprint backlog showed me how Agile planning works in practice. Each week had a clear purpose,
-        and each purpose built on the previous one. I learned that realistic planning matters, especially
-        when balancing development speed with quality and usability.
-      </p>
-
-      <h2>Agile Logbook</h2>
-      <p>
-        The logbook captured daily stand-up entries for each working day, including what was completed,
-        what would be done next, and what was blocking progress.
-      </p>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Theme</th>
-            <th>Dates raised</th>
-            <th>How it was handled</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Too much on one screen / too many functions</td>
-            <td>14, 15, 22, 28 Jul</td>
-            <td>Kept profile fields to the essentials and simplified the interface.</td>
-          </tr>
-          <tr>
-            <td>Team alignment</td>
-            <td>16, 21, 30, 31 Jul</td>
-            <td>Consulted the team before finalising the user story and wireframes.</td>
-          </tr>
-          <tr>
-            <td>Consistency between design and functionality</td>
-            <td>17, 23, 29 Jul</td>
-            <td>Reviewed the flow to make sure interactions remained consistent.</td>
-          </tr>
-          <tr>
-            <td>Time and technical risk</td>
-            <td>24 Jul, 5–7 Aug</td>
-            <td>Stayed on the database connection and documented technical risks early.</td>
-          </tr>
-        </tbody>
-      </table>
+    <main class="page">
+      <article id="content" class="markdown-body">
+        <div class="loading">Loading README content...</div>
+      </article>
     </main>
+
+    <script>
+      async function loadReadme() {
+        try {
+          const response = await fetch('https://raw.githubusercontent.com/LukeZyster/LukeZyster.github.io/main/README.md', { cache: 'no-store' });
+          if (!response.ok) throw new Error('Failed to fetch README');
+          const markdown = await response.text();
+          const renderer = new marked.Renderer();
+
+          // Preserve raw HTML from README (like <br>, <video>, etc.)
+          marked.setOptions({
+            breaks: false,
+            gfm: true,
+            sanitizer: false,
+            renderer
+          });
+
+          document.getElementById('content').innerHTML = marked.parse(markdown);
+        } catch (error) {
+          document.getElementById('content').innerHTML = '<p>Unable to load README content. Please check the repository.</p>';
+        }
+      }
+
+      loadReadme();
+    </script>
   </body>
 </html>
