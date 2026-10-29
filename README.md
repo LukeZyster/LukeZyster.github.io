@@ -71,20 +71,20 @@ The main project story I developed was the Caddy/Helper user story. It focused o
 
 The story was broken into smaller parts:
 - US-2.1: Onboarding flow
-- As a new Caddy/Helper, I want a short, guided sign-up and welcome flow so that I can register quickly and understand how the app works    before I start helping.
+- As a new Caddy/Helper, I want a short, guided sign-up and welcome flow so that I can register quickly and understand how the app works    before I start helping.<br>
 Acceptance criteria
- 1) I can register with my name, mobile number or email, and a password (or a social/OTP sign-in option).
- 2) My email or phone number is verified (for example by a one-time PIN) before I can continue.
+   1) I can register with my name, mobile number or email, and a password (or a social/OTP sign-in option).
+   2) My email or phone number is verified (for example by a one-time PIN) before I can continue.
     
 - US-2.2: Profile creation
-- As a registered Caddy/Helper, I want to create a profile with my details, skills and availability so that I am matched with tasks that    suit me and requesters can trust me.
+- As a registered Caddy/Helper, I want to create a profile with my details, skills and availability so that I am matched with tasks that    suit me and requesters can trust me.<br>
 Acceptance criteria
   1) I can add a profile photo, full name, short bio and the area or suburb I operate in.
   2) I can select the task types I can do (for example errands, carrying, queueing, golf caddying) and my availability by day and time.
   3) Required fields are marked, and I cannot save the profile until they are complete.
      
 - US-2.3: Browse available tasks
-- As a verified Caddy/Helper, I want to browse a list of available tasks near me so that I can quickly find work that fits my skills,       location and schedule.
+- As a verified Caddy/Helper, I want to browse a list of available tasks near me so that I can quickly find work that fits my skills,       location and schedule.<br>
 Acceptance criteria
   1) I see a list of open tasks, each showing a title, task type, distance, date and time, and the offered pay.
   2) The list is sorted by distance or newest first by default, and I can change the sort order.
@@ -92,7 +92,7 @@ Acceptance criteria
   4) Tasks already accepted by another helper no longer appear.
      
 - US-2.4: View task details
-- As a Caddy/Helper, I want to see the full details of a task so that I can decide whether it is worth my time before I commit.
+- As a Caddy/Helper, I want to see the full details of a task so that I can decide whether it is worth my time before I commit.<br>
 Acceptance criteria
   1) The details screen shows the task title, full description, task type, pickup and drop-off or meeting location, date and time,             estimated duration and pay.
   2) I see a map or location preview and the distance from my current position.
